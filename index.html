@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Manifest.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+    <link href="manifest.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet">
+    <img src="https://img.icons8.com/plumpy/48/000000/menu--v2.png" />
+
+    <script async defer src="manifest.js"></script>
+</head>
+
+<body>
+
+
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="#" class="btncont">Creeaza-ti cont</a></li>
+                <li><a href="#" class="btncont">Intra in cont</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="menu-bg" id="menu-bg"></div>
+
+    <div id='logheaza-te'>
+        <div id='popUp'>
+
+            <div class="page">
+
+                <div class="container">
+
+                    <div class="left">
+                        <div class="login">Logheaza-te</div>
+                        <div class="eula">Conectându-vă, sunteți de acord cu termenii ridicol de lungi pe care nu v-ați obosit să îi citiți</div>
+                    </div>
+                    <div class="right">
+
+                        <div class="form">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                            <label for="password">Parola</label>
+                            <input type="password" id="password">
+                            <input type="submit" id="submit" value="Submit">
+                        </div>
+                    </div>
+                    <button id='closePopUp'>X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='inregistreaza-te'>
+        <div id='popUp' class='popUp'>
+
+            <div class="page">
+
+                <div class="container">
+
+                    <div class="left">
+                        <div class="login">Creaaza-ti cont</div>
+                        <div class="eula">Creeandu-va cont , sunteți de acord cu termenii ridicol de lungi pe care nu v-ați obosit să îi citiți</div>
+                    </div>
+                    <div class="right">
+
+                        <div class="form">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+                            <label for="password">Parola</label>
+                            <input type="password" id="password">
+                            <label for="text">Nume</label>
+                            <input type="text" id="name">
+                            <input type="submit" id="submit" value="Submit">
+                        </div>
+                    </div>
+                    <button id='closePopUp' class='closePopUp'>X</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="blur">
+
+        <div class='titlu'>
+
+            <h1>Manifest.ro</h1>
+            <h2>Site-ul tau de cristale cu energii</h2>
+
+            <p id='descriere'>Manifest este cel mai mare site din Romania de cristale ce ofera energie celui ce le poarta.Numele revine din produsele noastre intrucat cristalele pe care le vindem ajuta la manifestarea anumitor stari.</p>
+        </div>
+        <div id='cards'>
+            <div id='turmalina'>
+                <div id='card1'>
+                    <h3>Pandantiv turmalina neagra</h3>
+                    <a href='turmalina.html'><button id='cumpara'>Cumpara aici</button></a>
+
+                </div>
+
+
+            </div>
+            <div id='ametist'>
+                <div id='card1'>
+
+                    <h3>Ametist rulat</h3>
+                    <a href='ametist.html'><button id='cumpara'>Cumpara aici</button></a>
+                </div>
+
+            </div>
+            <div id='gua'>
+                <div id='card1'>
+
+                    <h3>Piatra Gua Sha din Jad</h3>
+                    <a href='gua.html'><button id='cumpara'>Cumpara aici</button></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
